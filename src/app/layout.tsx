@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Enterprise HRIS",
-  description: "Human Resources Information System",
+  description: "Human Resources Information System-Liveroom Technologies",
 };
 
 export default function RootLayout({
