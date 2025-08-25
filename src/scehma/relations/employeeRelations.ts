@@ -7,15 +7,15 @@ import { attendance } from "../tables/attendance";
 
 export const employeeRelations = relations(employee, ({ one, many }) => ({
   user: one(users, {
-    fields: [employee.userId],
+    fields: [employee.employeeId],
     references: [users.id],
   }),
   department: one(departments, {
-    fields: [employee.departmentId],
+    fields: [employee.department],
     references: [departments.id],
   }),
   supervisor: one(employee, {
-    fields: [employee.supervisorId],
+    fields: [employee.reportingManager],
     references: [employee.id],
   }),
   subordinates: many(employee),

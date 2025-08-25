@@ -1,9 +1,10 @@
+// lib/types/employee.ts
 export interface Employee {
-  id: string;
+  id: number;
+  employeeId: string;
   firstName: string;
   lastName: string;
   email: string;
-  employeeId: string;
   jobTitle: string;
   department: string;
   reportingManager: string;
@@ -13,7 +14,8 @@ export interface Employee {
   dateOfBirth: string;
   gender: string;
   address: string;
-  avatar?: string;
+  createdAt?: Date;
+  updatedAt?: Date;
 }
 
 export interface EmployeeFormData {
