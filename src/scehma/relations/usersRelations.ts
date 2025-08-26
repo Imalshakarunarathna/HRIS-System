@@ -7,6 +7,6 @@ export const usersRelations = relations(users, ({ many, one }) => ({
   userRoles: many(userRoles),
   employee: one(employee, {
     fields: [users.id],
-    references: [employee.userId],
+    references: [employee.employeeId],
   }),
 }));

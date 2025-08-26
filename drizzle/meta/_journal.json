@@ -8,6 +8,48 @@
       "when": 1755687242711,
       "tag": "0000_busy_zaran",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1755759784989,
+      "tag": "0001_cute_kang",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1756118472953,
+      "tag": "0002_chunky_sally_floyd",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1756123577943,
+      "tag": "0003_brief_silver_samurai",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1756123719516,
+      "tag": "0004_faulty_terrax",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1756123970625,
+      "tag": "0005_common_cassandra_nova",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1756126975243,
+      "tag": "0006_freezing_nova",
+      "breakpoints": true
     }
   ]
 }
